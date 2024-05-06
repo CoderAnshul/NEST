@@ -1,0 +1,41 @@
+.headerSearch .selectDrop::after {
+    content: ' ';
+    width: 1px;
+    height: 22px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top:5px;
+    right: 0px;
+}
+.choicesdiv ul li{
+    padding: 2px;
+    position: relative;
+    cursor: pointer;
+}
+.dropDownMenu{
+    font-size: 14px;
+}
+.dropDownMenu li{
+    width: 100%;
+    background-color: #fff;
+}
+.dropDownMenu li button {
+    width: 100%;
+    justify-content: flex-start;
+    font-size: 13px !important;
+    text-transform: capitalize;
+    color: #000;
+}
+.dropDownMenu li button:hover{
+    color: #2dbd7a;
+}
+.dropDownMenu li button svg {
+    margin-right: 6px;
+    margin-left: -6px;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+
+
+

@@ -1,0 +1,32 @@
+ .searchResults::-webkit-scrollbar{
+    width: 6px !important;
+}
+.searchResults::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+}
+.selectDrop .searchResults{
+    width: 100%;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+.searchField{
+    margin-bottom: 10px;
+}
+
+.selectDrop .searchResults li{
+    list-style: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    /* transition: 0.1s background-color; */
+}
+.selectDrop .searchResults li.active{
+    background-color: #ccc;
+    border-radius: 8px;
+}
+.selectDrop .searchResults li:hover{
+    background-color: #3bb77e;
+    border-radius: 8px;
+    color:#fff
+}

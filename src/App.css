@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none; 
+  /* to stop the drag a copy anything */
+}
+
+
+.container-fluid{
+  padding: 0px 45px;
+}

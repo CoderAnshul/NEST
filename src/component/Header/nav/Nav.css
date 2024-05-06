@@ -1,0 +1,49 @@
+.part2 ul .dropdown-opt::-webkit-scrollbar{
+    width: 6px !important;
+}
+.part2 ul .dropdown-opt::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+}
+
+
+.nav .catTab{
+    width: 100%;
+    background-color:#3bb773;
+    /* padding: 8px 30px !important; */
+    font-size: 14px !important;
+    color: white;
+    text-transform: capitalize !important;
+}
+.nav ul li{
+    position: relative;
+}
+.nav .part2 ul li .dropdown-opt{
+    top: 90%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in-out 0.2s;
+}
+.nav .part2 ul li:hover .dropdown-opt{
+    visibility: visible;
+    opacity: 1;
+    top: 120%;
+}
+.nav .part2 .dropdown-opt ul li Button{
+    justify-content: flex-start;
+}
+.nav .part2 ul li Button {
+    width: 100%;
+    padding: 8px 25px !important;
+    font-size: 15px !important;
+    text-transform:capitalize !important;
+    color: rgba(0, 0, 0, 0.7);
+    a{
+        text-decoration: none !important;
+    }
+}
+
+
+
+.nav .part2 ul .mega-menu .dropdown-opt ul li{
+    font-size: 15px;
+}
