@@ -16,6 +16,7 @@
 }
 .nav ul li{
     position: relative;
+    flex-shrink: 0;
 }
 .nav .part2 ul li .dropdown-opt{
     top: 90%;
@@ -44,6 +45,13 @@
 
 
 
-.nav .part2 ul .mega-menu .dropdown-opt ul li{
-    font-size: 15px;
+.nav .part2 ul .mega-menu .dropdown-opt ul li {
+    margin-top: 5px;
+    font-size: 17px;
+    transition: all ease-in-out 0.15s;
+    
 }
+.nav .part2 ul .mega-menu .dropdown-opt ul li:hover { color: #3bb77e; font-size: 17.5px; 
+}
+
+
