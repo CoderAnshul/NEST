@@ -21,7 +21,7 @@ const Nav = () => {
           <ul className="flex">
             <li>
               <Button>
-                <Link>Home</Link>
+                <Link to="/">Home</Link>
               </Button>
             </li>
             <li>
