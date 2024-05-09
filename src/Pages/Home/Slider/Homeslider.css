@@ -53,3 +53,11 @@
 .slick-dots{
     margin-bottom: 34px;
 }
+.slick-dots li button::before{
+    font-size: 13px;
+    
+}
+.slick-dots li.slick-active button::before{
+    font-size: 15px;
+    color: #28a56f;
+}

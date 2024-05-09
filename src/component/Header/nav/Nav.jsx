@@ -132,16 +132,17 @@ const Nav = () => {
                     <p className="font-semibold -mt-1">off</p>
                   </div>
                   <div className="h-[160px] ml-4 p-2 flex-col absolute w-[170px]  top-11">
-                    <h5 className="font-normal text-sm mb-1">HOT DEALS</h5>
-                    <h2 className="font-bold text-xl leading-6 opacity-85 mb-3">
+                    <h5 className="text-md font-semibold opacity-65 mb-1">HOT DEALS</h5>
+                    <h2 className="font-bold text-3xl leading-8 opacity-85 mb-3">
                       Don't miss Trending
                     </h2>
                     <Button
                       style={{
-                        width: "100px",
+                        width: "110px",
                         whiteSpace: " nowrap",
                         backgroundColor: "#3bb77e",
                         borderRadius: "20px",
+                        color: "#fff"
                       }}
                     >
                       Shop now
