@@ -63,7 +63,10 @@ const Select = ({ data, placeholder ,icon}) => {
           {selectedItem}
           <ExpandMoreIcon className="arrow absolute right-1" />
         </span>
-        {isOpen === true && (
+
+
+        {
+        isOpen === true && (
           <div className="selectDrop w-[180px] h-auto absolute top-[100%] -left-2 z-[100] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] bg-[#fff] p-2 ">
             <div className="searchField">
               <input
@@ -82,7 +85,8 @@ const Select = ({ data, placeholder ,icon}) => {
                   >
                     {placeholder}
                   </li>
-              {listData.map((item, index) => {
+              {
+              listData.map((item, index) => {
                 return (
                   <li
                     key={index}

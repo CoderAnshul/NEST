@@ -1,0 +1,19 @@
+.box{
+    min-height: 290px;
+    max-height: 290px;
+    width: 32.5%;
+    
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    transition: all ease-in-out 0.2s;
+}
+.box:hover img{
+    scale: 1.03;
+}
