@@ -4,6 +4,7 @@ import Catslider from "../../component/categary slider/Catslider";
 import Banner from "../../component/Banner/Banner";
 import {Link} from "react-router-dom";
 import "./index.css"
+import Product from "../../component/Product/Product";
 
 const Home = () => {
 
@@ -25,7 +26,7 @@ const Home = () => {
 
       <section className="w-full p-11">
         <div className="w-full">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mb-3">
             <h2 className="text-4xl font-semibold">Popular Products</h2>
             <div className=" h-auto w-auto flex items-center justify-center">
               <ul className="filterTab flex gap-3 ">
@@ -50,7 +51,23 @@ const Home = () => {
           </div>
 
 
-          <div className=""></div>
+          <div className="w-full min-h-30 bg-red-200 flex p-1  flex-wrap shrink-0">
+            <div className="w-[19.5%] h-96 bg-sky-100">
+              <Product/>
+            </div>
+            <div className="w-[19.5%] h-96 bg-sky-100">
+              <Product/>
+            </div>
+            <div className="w-[19.5%] h-96 bg-sky-100">
+              <Product/>
+            </div>
+            <div className="w-[19.5%] h-96 bg-sky-100">
+              <Product/>
+            </div>
+            <div className="w-[19.5%] h-96 bg-sky-100">
+              <Product/>
+            </div>
+          </div>
         </div>
       </section>
     </>

@@ -9,8 +9,8 @@ import HeadsetMicIcon from "@mui/icons-material/HeadsetMic";
 const Nav = () => {
   return (
     <div className="nav h-[70px] flex ">
-      <div className="w-full px-4 border-y-2 border-[#0000001f] flex items-center justify-between ">
-        <div className="bg-g bg-[#2dbd7a] h-[40px] min-w-[240px] rounded-lg flex mr-5 ">
+      <div className="w-full  border-y-2 px-11 border-[#0000001f] flex items-center justify-between ">
+        <div className="bg-g bg-[#2dbd7a] h-[40px] min-w-[240px] rounded-lg flex ">
           <Button className="catTab">
             <GridViewIcon className="absolute left-3 " />
             Browse All Categories
@@ -233,8 +233,8 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <div className="flex -mr-2">
-          <div className="w-[200px] min-h-[42px] flex items-center p-2">
+        <div className="flex ">
+          <div className="w-[200px] -mr-5 min-h-[42px] flex items-center p-2">
             <HeadsetMicIcon
               className="mr-1"
               style={{ fontSize: "35px" }}

@@ -35,7 +35,7 @@ const Catslider = () => {
 
   return (
     <div className="catSliderSection h-auto mt-2">
-      <div className="w-full h-auto py-3 px-11">
+      <div className="w-full h-auto py-2 px-11">
         <h1 className="text-4xl font-semibold mb-4">Featured Category</h1>
 
 

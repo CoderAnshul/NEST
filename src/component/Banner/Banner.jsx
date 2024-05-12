@@ -7,7 +7,7 @@ import './Banner.css'
 const Banner = () => {
   return (
     <div className='bannerSection'>
-        <div className='w-full h-auto px-11 py-3 flex gap-2 justify-between'>
+        <div className='w-full h-auto px-11 py-3 flex gap-2 justify-between '>
             <div className="box">
                 <img src={Banner1} alt="banner" />
             </div>
