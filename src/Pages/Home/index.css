@@ -1,0 +1,11 @@
+.filterTab li{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+    transition: all ease-in-out 0.2s;
+}
+.filterTab li:hover{
+    color: #3bb77e;
+    transform: translateY(-2px);
+}
