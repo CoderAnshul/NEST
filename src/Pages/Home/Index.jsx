@@ -51,20 +51,23 @@ const Home = () => {
           </div>
 
 
-          <div className="w-full min-h-30 bg-red-200 flex p-1  flex-wrap shrink-0">
-            <div className="w-[19.5%] h-96 bg-sky-100">
+          <div className="w-full justify-center min-h-30 flex-col md:flex-row  rounded-xl flex p-1 gap-3 flex-wrap shrink-0">
+            <div className="min-w-[260px] max-w-[260px] h-96 ">
               <Product/>
             </div>
-            <div className="w-[19.5%] h-96 bg-sky-100">
+            <div className="min-w-[260px] max-w-[260px] h-96 ">
               <Product/>
             </div>
-            <div className="w-[19.5%] h-96 bg-sky-100">
+            <div className="min-w-[260px] max-w-[260px] h-96 ">
               <Product/>
             </div>
-            <div className="w-[19.5%] h-96 bg-sky-100">
+            <div className="min-w-[260px] max-w-[260px] h-96 ">
               <Product/>
             </div>
-            <div className="w-[19.5%] h-96 bg-sky-100">
+            <div className="min-w-[260px] max-w-[260px] h-96 ">
+              <Product/>
+            </div>
+            <div className="min-w-[260px] max-w-[260px] h-96 ">
               <Product/>
             </div>
           </div>
