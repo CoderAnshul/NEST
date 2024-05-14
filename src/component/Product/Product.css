@@ -1,0 +1,12 @@
+.overlay{
+    opacity: 0;
+}
+
+.productBox:hover .imgWrapper .overlay{
+    opacity: 1;
+}
+
+.productBox .productBadge.hot{background: #f74b81 !important;}
+.productBox .productBadge.sale{background: #67bcee !important;}
+.productBox .productBadge.new{background: #3bb77e !important;}
+.productBox .productBadge.best{background: #f59758 !important;}

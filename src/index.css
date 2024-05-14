@@ -5,3 +5,12 @@
 html, body{
     overflow-x:hidden;
 }
+
+@layer utilities {
+    .product-box{
+        @apply  relative w-full overflow-hidden h-full p-3 rounded-xl  border-gray-300 hover:border-[#3bb77e] transition-all border-2 hover:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] translate-y-1 hover:mt-[-5px]
+    }
+    .product-badge{
+        @apply absolute top-0 left-0 py-1 px-3 w-12 text-white  text-xs font-semibold rounded-br-xl
+    }
+}

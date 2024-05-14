@@ -59,7 +59,8 @@ const Header = () => {
 
   return (
     <>
-      <header className=" w-screen">
+    <div className="headerWrapper top-0">
+      <header className=" w-screen bg-white">
         <div className="nav min-h-24 w-full px-6 flex items-center space-between  ">
           <div className="overflow-hidden p-1 mr-16 ">
             <img src={Logo} className="h-[55px]" />
@@ -183,6 +184,7 @@ const Header = () => {
 
       </header>
         <Nav/>
+    </div>
     </>
   );
 };
